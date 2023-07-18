@@ -208,7 +208,6 @@ footer{
 /* footer-top */
 .footer-top{
   display: flex;
-  height: 500px;
   padding: 40px 0;
   
   border-bottom: 1px solid #5865f2;
@@ -220,11 +219,12 @@ footer{
 }
 
 .column-big{
-  flex-grow: 2;
+  flex-grow: 1.5;
+  max-width: 30%;
 }
 
 .column-big h3{
-  padding: 20px 0;
+  padding-bottom: 20px;
   font-size: 32px;
   color: #7289da;
 }
@@ -251,6 +251,21 @@ footer{
 }
 .column-small{
   flex-grow: 1;
+  flex-direction: column;
+}
+
+.column-small span{
+  font-weight: bold;
+  color:#7289da;
+  padding-bottom: 16px;
+}
+
+.column-small a{
+  padding-bottom: 12px;
+}
+
+.column-small a:hover{
+  text-decoration: underline;
 }
 
 /* footer-bot */
