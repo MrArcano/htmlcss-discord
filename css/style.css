@@ -77,6 +77,17 @@ img{
 .btn:hover{
   box-shadow: 0 8px 15px rgba(0,0,0,0.2);
 }
+
+/* Wave grey */
+.wave img{
+  width: 100%;
+  filter: invert(98%) sepia(8%) saturate(179%) hue-rotate(247deg) brightness(118%) contrast(92%);
+  margin-bottom: -5px;
+}
+
+.wave-bot{
+  transform: rotate(180deg);
+}
 /* HEADER */
 
 header{
