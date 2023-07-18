@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 
-body{
+html{
   font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
 }
 
 /* Font */
@@ -31,10 +32,39 @@ body{
   border: 2px dashed black;
 }
 
-/* Header-top / menu */
+.btn{
+  border-radius: 40px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: white;
+  color: #23272a;
+  border: none;
+  text-decoration: none;
+  margin: 0 8px;
+}
 
+.btn-big{
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+.btn-black{
+  background-color: #23272a;
+  color: white;
+}
+
+.btn:hover{
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+/* HEADER */
+
+header{
+  color: white;
+}
+
+/* Header-top / menu */
 #header-top{
-  background-color: #404eed;
+  background-color: #255ee9;
   height: 80px;
 }
 
@@ -44,34 +74,55 @@ body{
   height: 100%;
 }
 
-.logo{
+.logo span{
+  font-weight: bold;
+}
 
+#menu ul{
+  list-style: none;
+}
+
+#menu ul li{
+  padding: 0 16px;
+}
+
+#menu ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+#menu ul li a:hover{
+  text-decoration: underline;
 }
 
 /* Header-bottom / hero */
+#hero{
+  background-image: url("../img/jumbo.png");
+  background-position: center;
+  background-size: cover;
 
-header #hero{
   padding: 50px 0;
 }
 
-header #hero #hero-text{
+#hero #hero-text{
   width: 60%;
-  height: 400px; /* da rivedere */
-  padding: 0 20px;
-
-  display: flex;
+  height: 400px; /* devo metterlo obbligatoriamente ?? */
+  
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
 
-#hero-text p{
   text-align: center;
 }
 
-#hero-text button{
-  margin: 5px;
-  padding: 5px 15px;
+#hero-text h1{
+  font-family: 'GintoNord', sans-serif;
+  font-size: 56px;
+}
+
+#hero-text p{
+  font-size: 18px;
 }
 /* FINE Header-bottom / hero */
 
