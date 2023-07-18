@@ -6,8 +6,13 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
-/* Utility */
+/* Font */
+@font-face {
+  font-family: "GintoNord";
+  src: url("../font/ABC-Ginto-Nord.woff2") format('woff2');
+}
 
+/* Utility */
 .container{
   max-width: 1200px;
   width: 70%;
@@ -34,6 +39,10 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
+
+.logo{
+
 }
 
 /* Header-bottom / hero */
