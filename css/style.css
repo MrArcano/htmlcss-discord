@@ -41,7 +41,7 @@ p{
 }
 
 .border-box *{
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   border: 2px dashed black;
 }
 
@@ -51,7 +51,6 @@ p{
   font-size: 14px;
   background-color: white;
   color: #23272a;
-  border: none;
   text-decoration: none;
   margin: 0 8px;
 }
@@ -187,6 +186,14 @@ main .box-big{
 }
 /* fine section big box */
 
+/* CTA */
+.star h3{
+  font-size: 26px;
+  margin-top: -32px;
+  padding-bottom: 50px;
+}
+
+
 /* fine MAIN */
 
 
@@ -194,6 +201,7 @@ main .box-big{
 /* FOOTER */
 footer{
   background-color: #23272a;
+  color: white;
   padding-top: 10px;
 }
 
@@ -201,14 +209,46 @@ footer{
 .footer-top{
   display: flex;
   height: 500px;
-  padding-bottom: 40px;
+  padding: 40px 0;
+  
   border-bottom: 1px solid #5865f2;
+}
+
+.footer-top a{
+  color: white;
+  text-decoration: none;
 }
 
 .column-big{
   flex-grow: 2;
 }
 
+.column-big h3{
+  padding: 20px 0;
+  font-size: 32px;
+  color: #7289da;
+}
+
+.column-big a{
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.column-big a img{
+  width: 30px;
+  padding-right: 4px;
+}
+
+.column-big a span,
+.column-big a i{
+  font-size: 0.8rem;
+  padding-left: 4px;
+}
+
+.fa-brands{
+  padding-right: 16px;
+  font-size: 24px;
+}
 .column-small{
   flex-grow: 1;
 }
