@@ -10,6 +10,18 @@ html{
   font-size: 16px;
 }
 
+h1{
+  font-size: 56px;
+}
+
+h2{
+  font-size: 42px;
+}
+
+p{
+  font-size: 18px;
+}
+
 /* Font */
 @font-face {
   font-family: "GintoNord";
@@ -53,6 +65,10 @@ html{
   color: white;
 }
 
+img{
+  max-width: 100%;
+}
+
 .btn:hover{
   box-shadow: 0 8px 15px rgba(0,0,0,0.2);
 }
@@ -90,6 +106,7 @@ header{
   color: white;
   text-decoration: none;
   font-size: 0.9rem;
+  font-weight: bold;
 }
 
 #menu ul li a:hover{
@@ -99,7 +116,7 @@ header{
 /* Header-bottom / hero */
 #hero{
   background-image: url("../img/jumbo.png");
-  background-position: center;
+  background-position:bottom;
   background-size: cover;
 
   padding: 50px 0;
@@ -118,12 +135,8 @@ header{
 
 #hero-text h1{
   font-family: 'GintoNord', sans-serif;
-  font-size: 56px;
 }
 
-#hero-text p{
-  font-size: 18px;
-}
 /* FINE Header-bottom / hero */
 
 /* MAIN */
@@ -132,7 +145,7 @@ header{
 
 main .box{
   padding: 50px 0;
-  min-height: 500px /* da levare */
+  align-items: center;
 }
 
 main .box-grey{
@@ -140,11 +153,16 @@ main .box-grey{
 }
 
 main .box-image{ 
-  flex-grow: 1.5;
+  width: 60%;
+  padding-right: 50px;
 }
 
 main .box-text{
-  flex-grow: 1;
+  width: 40%;
+}
+
+main .box-text h2{
+  padding-bottom: 20px;
 }
 
 /* fine section image & text */
@@ -152,19 +170,23 @@ main .box-text{
 /* section big box */
 
 main .box-big{
-  width: 100%;
-  height: 750px; /* da levare */
-  padding: 0 20px;
-
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  
+  height: 750px; /* da levare */
+  text-align: center;
 }
 
 .box-big .box-image{
   flex-grow: 0;
   width: 100%;
+
+}
+
+.box-big h2{
+  font-family: 'GintoNord', sans-serif;
+  font-size: 40px;
 }
 /* fine section big box */
 
