@@ -16,6 +16,7 @@ h1{
 
 h2{
   font-size: 42px;
+  padding-bottom: 20px;
 }
 
 p{
@@ -62,6 +63,11 @@ p{
 
 .btn-black{
   background-color: #23272a;
+  color: white;
+}
+
+.btn-lightblue{
+  background-color: #7289da;
   color: white;
 }
 
@@ -149,7 +155,7 @@ main .box{
 }
 
 main .box-grey{
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 
 main .box-image{ 
@@ -161,20 +167,11 @@ main .box-text{
   width: 40%;
 }
 
-main .box-text h2{
-  padding-bottom: 20px;
-}
-
 /* fine section image & text */
 
 /* section big box */
 
 main .box-big{
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  
-  height: 750px; /* da levare */
   text-align: center;
 }
 
@@ -205,7 +202,7 @@ footer{
   display: flex;
   height: 500px;
   padding-bottom: 40px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #5865f2;
 }
 
 .column-big{
