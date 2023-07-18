@@ -79,12 +79,19 @@ img{
 }
 
 /* Wave grey */
+/* metodo 1 - attraverso proprietà FILTER */
 .wave img{
   width: 100%;
   filter: invert(98%) sepia(8%) saturate(179%) hue-rotate(247deg) brightness(118%) contrast(92%);
   margin-bottom: -5px;
 }
 
+/* metodo 2 - attraverso copia del file svg nell'html */
+.wave-1hkxOo{
+  margin-bottom: -5px;
+}
+
+/* per la wave a testa in giù */
 .wave-bot{
   transform: rotate(180deg);
 }
