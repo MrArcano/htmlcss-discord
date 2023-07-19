@@ -46,6 +46,9 @@ p{
 }
 
 .btn{
+  /* deve diventere inline block, perchè se no il testo va a capo e si rompe */
+  display: inline-block; 
+  
   border-radius: 40px;
   padding: 8px 16px;
   font-size: 14px;
@@ -84,6 +87,8 @@ img{
   width: 100%;
   filter: invert(98%) sepia(8%) saturate(179%) hue-rotate(247deg) brightness(118%) contrast(92%);
   margin-bottom: -5px;
+  /*oppure*/
+  /* vertical-align: bottom; */
 }
 
 /* metodo 2 - attraverso copia del file svg nell'html */
@@ -153,6 +158,7 @@ header{
 
 #hero #hero-text{
   width: 60%;
+  max-width: 780px;
   height: 550px; /* devo metterlo obbligatoriamente ?? */
   
   flex-direction: column;
