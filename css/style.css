@@ -163,7 +163,9 @@ header{
 #hero #hero-text{
   width: 60%;
   max-width: 780px;
-  height: 550px; /* devo metterlo obbligatoriamente ?? */
+
+  margin-top: 80px;
+  height: 500px; /* devo metterlo obbligatoriamente ?? */
   
   flex-direction: column;
   justify-content: space-around;
