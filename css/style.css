@@ -124,6 +124,10 @@ header{
   height: 100%;
 }
 
+.logo img{
+  min-width: 125px;
+}
+
 .logo span{
   font-weight: bold;
 }
